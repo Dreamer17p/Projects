@@ -1,0 +1,39 @@
+.card-input {
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    display: flex;
+    background-color: white;
+}
+
+input {
+    flex: 1;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+input::placeholder {
+  padding-left: 5px;
+  color: white;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid black;
+    background: none;
+    height: fit-content;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+  background-color: rgb(114, 110, 117);
+  color: white;
+  border: 1px solid white;
+}

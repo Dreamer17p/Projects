@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+</head>
+<body>
+    <form>
+        <input type="number" id="input">
+        <label>
+            Inserta El valor a retirar 
+        </label>
+        <button type="button" onclick="Search()">Dele aquí para continuar</button>
+        <p>
+            Capacidad maxima: <strong>500$</strong> <br>
+            Solo valores enteros.
+        </p>
+        <p>
+            Saldo restante: <div id="capacidad"></div> <br>
+           El cajero solo puede recibir transaciones terminadas en 0, mayores a 100
+        </p>
+        <div id="result"></div>
+    </form>
+    <script src="atmine.js"></script>
+</body>
+</html>

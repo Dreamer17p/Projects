@@ -1,0 +1,12 @@
+<h1>Lista de que haceres</h1>
+<div class="line"></div>
+<div class="tasks-input">
+  <app-input (add)="agregarTask($event)"></app-input>
+</div>
+<div class="tasks-list">
+  <app-task
+    *ngFor="let task of tasksList; let i = index"
+    [texto]="task"
+    (onEliminar)="eliminarTask(i)"
+  ></app-task>
+</div>
